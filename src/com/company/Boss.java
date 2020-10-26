@@ -4,38 +4,31 @@ public class Boss {
 
     private int health;
     private int damage;
-    private int mental;
+    private String typeDefense;
 
-    public Boss() {
-
-        this.health = health;
-        this.health = damage;
-        this.mental = mental;
-    }
-
-    public Boss(int health, int damage, int mental){
-    }
-    public int getHealth(){
+    public int getHealth() {
         return health;
     }
-    public void getHealth(int health){
+
+    public void setHealth(int health) {
         this.health = health;
     }
 
     public int getDamage() {
         return damage;
     }
-    public void getDamage(int damage){
+
+    public void setDamage(int damage) {
         this.damage = damage;
     }
 
-    public int getMental() {
-        return mental;
-    }
-    public void getMental(int mental) {
-        this.mental = mental;
+    public String getTypeDefense() {
+        return typeDefense;
     }
 
+    public void setTypeDefense(String typeDefense) {
+        this.typeDefense = typeDefense;
+    }
 }
 
 

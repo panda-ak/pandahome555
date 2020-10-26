@@ -1,9 +1,6 @@
 package com.company;
 
 public class Hero {
-
-
-
     private int health;
     private int damage;
     private int regen;
@@ -15,27 +12,21 @@ public class Hero {
         this.regen = regen;
     }
 
-    public Hero(){
+    public Hero(int health, int damage) {
+        this.health = health;
+        this.damage = damage;
     }
+
     public int getHealth(){
         return health;
     }
-    public int getHealth(int health){
-        this.health = health;
-        return health;
-    }
+
     public int getDamage(){
         return damage;
     }
-    public int getDamage(int damage){
-        this.damage = damage;
-        return damage;
-    }
+
     public int getRegen(){
         return regen;
     }
-    public int getRegen(int regen){
-        this.regen = regen;
-        return regen;
-    }
+
 }
